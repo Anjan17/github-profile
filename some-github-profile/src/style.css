@@ -1,0 +1,39 @@
+.page .page-content {
+  padding: 20px 60px;
+  display: flex;
+}
+
+.profile-section,
+.work-section {
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+.profile-section {
+  text-align: left;
+}
+
+/* .profile-section .profile-image {
+  border: 1px solid;
+  border-radius: 50%;
+} */
+
+.repo-section {
+  width: 80%;
+}
+
+.repo-section .repo-filter-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.repo-section .repo-search-container {
+  width: 50%;
+}
+.repo-section .repo-list .repo-details-wrapper {
+  text-align: left;
+  height: 80px;
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+}
